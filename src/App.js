@@ -8,7 +8,7 @@ const FILTER_MAP={
   All:()=>true,
   Done:(task)=>task.completed,
   Active:(task)=>!task.completed
-}
+};
 
 const FILTER_NAMES = Object.keys(FILTER_MAP);
 // console.log(FILTER_NAMES);
